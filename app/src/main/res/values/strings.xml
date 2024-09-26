@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Daily TakaPoysha</string>
+    <string name="add">Add</string>
+    <string name="category">Category</string>
+    <string name="spend_from">Spend From</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="detail_about_it">Detail about it</string>
+    <string name="add_it">Add it</string>
+    <string name="total_expense">Total Expense</string>
+    <string name="remaining_balance">Remaining Balance</string>
 </resources>
