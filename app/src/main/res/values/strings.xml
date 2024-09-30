@@ -8,4 +8,21 @@
     <string name="add_it">Add it</string>
     <string name="total_expense">Total Expense</string>
     <string name="remaining_balance">Remaining Balance</string>
+    <string name="spend_to">Spend to</string>
+    <string-array name="add_items">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+    <string-array name="add_category">
+        <item>Salary</item>
+        <item>Due</item>
+        <item>Debt</item>
+        <item>Family</item>
+    </string-array>
+    <string-array name="expense_category">
+        <item>UFamily</item>
+        <item>Health</item>
+        <item>EFamily</item>
+        <item>Construction</item>
+    </string-array>
 </resources>

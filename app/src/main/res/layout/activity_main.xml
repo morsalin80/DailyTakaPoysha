@@ -8,28 +8,31 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:weightSum="3">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_gravity="center"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_marginBottom="10dp"
                 android:text="@string/add"
-                android:textSize="15sp" />
+                android:textSize="12sp" />
 
             <Spinner
                 android:id="@+id/add_spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:background="@android:drawable/btn_dropdown"
                 android:spinnerMode="dropdown" />
         </LinearLayout>
@@ -38,20 +41,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_gravity="center"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_marginBottom="10dp"
                 android:text="@string/category"
-                android:textSize="15sp" />
+                android:textSize="12sp" />
 
             <Spinner
+                android:id="@+id/category_spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:background="@android:drawable/btn_dropdown"
                 android:spinnerMode="dropdown" />
         </LinearLayout>
@@ -60,20 +67,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:layout_gravity="center"
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/spend_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:layout_marginBottom="10dp"
                 android:text="@string/spend_from"
-                android:textSize="15sp" />
+                android:textSize="12sp" />
 
             <Spinner
+                android:id="@+id/spend_spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:gravity="center"
                 android:background="@android:drawable/btn_dropdown"
                 android:spinnerMode="dropdown" />
         </LinearLayout>
