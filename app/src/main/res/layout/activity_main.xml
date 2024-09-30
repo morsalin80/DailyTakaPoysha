@@ -26,6 +26,7 @@
                 android:textSize="15sp" />
 
             <Spinner
+                android:id="@+id/add_spinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
